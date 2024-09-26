@@ -162,7 +162,6 @@ class MedShapeNet(Dataset):
         return pcd, Transform
 
     def __len__(self):
-        """Return the number of samples in the dataset."""
         return self.data.shape[0]
 
 
