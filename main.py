@@ -97,10 +97,7 @@ class TrainingConfig:
     n_points: int = 1000
     n_subsampled_points: int = 800
     corres_mode: bool = False
-    GMCCE_Sharp: float = 30
-    GMCCE_Thres: float = 0.6
-    load_model: bool = False
-    token_dim: int = 64
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='PER')
