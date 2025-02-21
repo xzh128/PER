@@ -11,4 +11,9 @@
  * GFM identifies geometrically consistent point pairs, completing missing data and refining registration accuracy. <br>
  ## Configuration
  This code is based on PyTorch implementation，and the python requirements are: <br>
+ CUDA 11.7 <br>
+ Pytorch 2.1.0 <br>
+ Python 3.10 <br>
+ More requirements can be found in requirements.txt <br>
+ 
  
